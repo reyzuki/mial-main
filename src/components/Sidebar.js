@@ -13,7 +13,7 @@ import ExpandMoreIcon from "@material-ui/icons/ExpandMore";
 function Sidebar() {
   return (
       <div className='sidebar'>
-          <Link to ="/compose"><Button onClick={()=> history.push("/compose")} startIcon={<AddIcon fontSize="large"/>} className='sidebar_compos'>  Compose </Button></Link>
+          <Button startIcon={<AddIcon fontSize="large"/>} className='sidebar_compos'>  Compose </Button></Link>
   
      <SidebarOption Icon={InboxIcon} title="Inbox" number={21} selected={true}/>
      <SidebarOption Icon={StarIcon} title="Starred" number={14}/>
